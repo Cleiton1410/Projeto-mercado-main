@@ -19,3 +19,4 @@ C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.csproj.CoreCo
 C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.dll
 C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\refint\PrimeiroProjeto.dll
 C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.pdb
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.sourcelink.json
