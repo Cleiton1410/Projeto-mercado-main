@@ -121,3 +121,13 @@ C:\Users\ederm\OneDrive\Documentos\C#\PrimeiroProjeto\obj\Debug\net8.0\staticweb
 C:\Users\ederm\OneDrive\Documentos\C#\PrimeiroProjeto\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.PrimeiroProjeto.props
 C:\Users\ederm\OneDrive\Documentos\C#\PrimeiroProjeto\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\ederm\OneDrive\Documentos\C#\PrimeiroProjeto\obj\Debug\net8.0\Primeiro.058784A0.Up2Date
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.csproj.AssemblyReference.cache
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.AssemblyInfoInputs.cache
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.AssemblyInfo.cs
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.MvcApplicationPartsAssemblyInfo.cache
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.sourcelink.json
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.dll
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\refint\PrimeiroProjeto.dll
+C:\workspace\Projeto-mercado-main\obj\Debug\net8.0\PrimeiroProjeto.pdb
