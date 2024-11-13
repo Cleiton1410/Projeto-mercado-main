@@ -6,7 +6,7 @@ async function verificacao(event){
         senha: document.getElementById("senha").value
     };
     try{
-        const login= await fetch("/api/login",
+        const login= await fetch("/app/login",
             {
                 method: "GET",
                 headers: {

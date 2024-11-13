@@ -13,7 +13,7 @@ namespace PrimeiroProjeto
             this.db= db;
         }
          public async Task<MySqlDataReader> getQuery(String command){
-            return await db.getQuery(command);
+            return  await db.getQuery(command);
          }
         
     }
