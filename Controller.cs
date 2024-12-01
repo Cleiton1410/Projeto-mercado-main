@@ -1,20 +1,22 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
 
 namespace PrimeiroProjeto
 {
     public class Controller
     {
-        Db db;
-        public Controller(Db db){
-            this.db= db;
+        private readonly Db _db;
+
+        public Controller(Db db)
+        {
+            _db = db;
         }
-         public async Task<MySqlDataReader> getQuery(String command){
-            return  await db.getQuery(command);
-         }
-        
+
+        public async Task<List<Dictionary<string, object>>> getQuery(string command)
+        {
+            // Chama o método getQuery do Db e retorna os dados prontos para serialização
+            return await _db.getQuery(command);
+        }
     }
 }
