@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NmY3ziLVHi3mMih/0ucKuAmweN6OCcofr8X0A9VgoWo=",
+  "Hash": "2hZ7UvzUNgC0ajVk1JoI6ZF1gYOoVFtC2fFLbO1TdmM=",
   "Source": "PrimeiroProjeto",
   "BasePath": "_content/PrimeiroProjeto",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\Produtos.css",
+      "SourceId": "PrimeiroProjeto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "BasePath": "_content/PrimeiroProjeto",
+      "RelativePath": "Produtos.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Produtos.css"
     },
     {
       "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\scriptLogin.js",

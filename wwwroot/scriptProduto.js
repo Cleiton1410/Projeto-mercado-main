@@ -11,7 +11,7 @@ async function requisicao() {
             },
         });
         if (!response.ok) {
-            throw new Error();
+            throw new Error("Falha na requisição!");
         }
         var body = await response.json();
         document.getElementById("name").value = body["description"];

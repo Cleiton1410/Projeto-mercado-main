@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\Produtos.css",
+      "PackagePath": "staticwebassets\\Produtos.css"
+    },
+    {
       "Id": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\cadastroProduto.html",
       "PackagePath": "staticwebassets\\cadastroProduto.html"
     },

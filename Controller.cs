@@ -13,10 +13,10 @@ namespace PrimeiroProjeto
             _db = db;
         }
 
-        public async Task<List<Dictionary<string, object>>> getQuery(string command)
+        public async Task<List<Dictionary<string, object>>> GetQueryAsync(string command)
         {
-            // Chama o método getQuery do Db e retorna os dados prontos para serialização
-            return await _db.getQuery(command);
+            // Chama o método GetQueryAsync da classe Db e retorna os dados
+            return await _db.GetQueryAsync(command);
         }
     }
 }

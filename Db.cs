@@ -1,7 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Linq;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
@@ -9,32 +7,58 @@ namespace PrimeiroProjeto
 {
     public class Db
     {
-        public async Task<List<Dictionary<string, object>>> getQuery(string command)
+        private readonly MySqlConnection _connection;
+
+        public Db()
         {
-            MySqlConnection conexao = BancoDados.banco.conexao;
+            // Certifique-se de que o banco de dados está configurado corretamente
+            _connection = BancoDados.banco.conexao;
+        }
 
-            if (conexao.State == ConnectionState.Closed)
+        public async Task<List<Dictionary<string, object>>> GetQueryAsync(string command)
+        {
+            var result = new List<Dictionary<string, object>>();
+
+            try
             {
-                await conexao.OpenAsync();
-            }
+                // Verifica se a conexão está aberta
+                if (_connection.State != System.Data.ConnectionState.Open)
+                {
+                    await _connection.OpenAsync(); // Abre a conexão de forma assíncrona
+                }
 
-            MySqlCommand selectCommand = new MySqlCommand(command, conexao);
-            var resultado = new List<Dictionary<string, object>>();
+                // Cria o comando a ser executado
+                MySqlCommand cmd = new MySqlCommand(command, _connection);
 
-            using (var reader = await selectCommand.ExecuteReaderAsync())
-            {
+                // Executa o comando assíncrono e obtém o leitor de dados
+                MySqlDataReader reader = (MySqlDataReader)await cmd.ExecuteReaderAsync();
+
+                // Processa os resultados retornados
                 while (await reader.ReadAsync())
                 {
                     var row = new Dictionary<string, object>();
+
+                    // Adiciona os dados das colunas ao dicionário
                     for (int i = 0; i < reader.FieldCount; i++)
                     {
                         row.Add(reader.GetName(i), reader.GetValue(i));
                     }
-                    resultado.Add(row);
-                }
-            }
 
-            return resultado;
+                    // Adiciona a linha ao resultado
+                    result.Add(row);
+                }
+
+                // Fecha o reader após o uso
+                await reader.CloseAsync();
+            }
+            catch (Exception ex)
+            {
+                // Trate os erros caso algo aconteça durante a execução da consulta
+                Console.WriteLine("Erro ao executar a consulta: " + ex.Message);
+            }
+            
+            // Retorna os resultados da consulta
+            return result;
         }
     }
 }

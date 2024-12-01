@@ -11,18 +11,6 @@ body {
     color: #333;
 }
 
-/* Caixa de Login */
-.caixaLogin {
-    background-color: white;
-    width: 100%;
-    max-width: 450px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin-top: 120px;
-}
-
 /* Cabeçalho */
 header {
     text-align: center;
@@ -42,6 +30,18 @@ header h1 {
     font-size: 24px;
 }
 
+/* Centraliza o formulário */
+main {
+    margin-top: 120px;
+    padding: 20px 25px;
+    width: 100%;
+    max-width: 450px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Impede que os elementos saiam da div */
+}
+
 /* Estilo do formulário */
 form label {
     display: flex;
@@ -59,7 +59,7 @@ form input {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Garante que o padding e borda não saiam da largura total */
     transition: border 0.3s, box-shadow 0.3s;
 }
 
@@ -69,9 +69,9 @@ form input:focus {
     outline: none;
 }
 
-/* Botão de envio */
-button {
-    width: 100%;
+/* Botão de busca (ajustado para ser como o botão de salvar, mas menor) */
+.button {
+    width: 30%;
     padding: 12px 15px;
     font-size: 16px;
     background: linear-gradient(135deg, #007bff, #0056b3);
@@ -83,27 +83,61 @@ button {
     text-transform: uppercase;
     transition: background 0.3s, transform 0.2s;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    margin-left: 10px;
 }
 
-button:hover {
+.button:hover {
     transform: scale(1.05);
     background: linear-gradient(135deg, #0056b3, #003f7f);
 }
 
-/* Responsividade */
+/* Grupo de formulário */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-group div {
+    display: flex;
+    align-items: center;
+}
+
+/* Botão de salvar */
+form button[type="submit"] {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 16px;
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form button[type="submit"]:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #1e7e34, #145924);
+}
+
+/* Ajustes de responsividade */
 @media (max-width: 768px) {
-    .caixaLogin {
-        width: 90%;
+    main {
         margin-top: 80px;
         padding: 15px 20px;
+    }
+    
+    .button {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
     }
 
     form input {
         font-size: 13px;
-    }
-
-    button {
-        font-size: 14px;
     }
 }

@@ -5,31 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Produto</title>
-    <link rel="stylesheet" href="style.css">
-    <script>
-
-    </script>
+    <link rel="stylesheet" href="Produtos.css">
+    <script defer src="scriptProduto.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Cadastro produtos</h1>
-        <script src="scriptProduto.js"></script>
+        <h1>Cadastro de Produtos</h1>
     </header>
     <main>
-        <form action="#">
-            <label for="barras">Código de barras</label>
-            <div>
-                <input type="text" , id="barras" , name="barras" value=" ">
-                <button class="button" id="botao" onclick="requisicao()">OK</button>
-            </div>
-            <label for="name">Nome</label>
-            <input type="text" id="name" name="nome" value=" ">
-            <label for="descricao">Descricao</label>
-            <input type="text" id="descricao" name="descricao">
-            <label for="preco">Valor venda</label>
-            <input type="preco">
+        <form action="#" id="form-produto">
+            <!-- Código de Barras -->
+            <div class="form-group">
+                <label for="barras">Código de barras</label>
+                <input type="text" id="barras" name="barras" placeholder="Insira o código de barras">
+                <button class="button" id="botao" onclick="requisicao(event)">OK</button>
 
+            </div>
+
+            <!-- Nome do Produto -->
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="nome" placeholder="Nome do produto">
+            </div>
+
+            <!-- Descrição do Produto -->
+            <div class="form-group">
+                <label for="descricao">Descrição</label>
+                <input type="text" id="descricao" name="descricao" placeholder="Descrição do produto">
+            </div>
+
+            <!-- Preço do Produto -->
+            <div class="form-group">
+                <label for="preco">Valor de Venda</label>
+                <input type="text" id="preco" name="preco" placeholder="Preço do produto">
+            </div>
+
+            <!-- Botão de Enviar -->
+            <div class="form-group">
+                <button type="submit" class="button">Salvar Produto</button>
+            </div>
         </form>
     </main>
 </body>
