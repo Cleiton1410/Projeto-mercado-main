@@ -3530,11 +3530,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\Projeto-mercado-main\\PrimeiroProjeto.csproj",
+      "projectUniqueName": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\PrimeiroProjeto.csproj",
       "projectName": "PrimeiroProjeto",
-      "projectPath": "C:\\workspace\\Projeto-mercado-main\\PrimeiroProjeto.csproj",
+      "projectPath": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\PrimeiroProjeto.csproj",
       "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\Projeto-mercado-main\\obj\\",
+      "outputPath": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config"

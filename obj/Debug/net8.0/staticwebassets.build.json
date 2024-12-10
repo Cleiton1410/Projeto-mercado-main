@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2hZ7UvzUNgC0ajVk1JoI6ZF1gYOoVFtC2fFLbO1TdmM=",
+  "Hash": "pheLsVBJyomPcFYCoUau2hKMxsAgQYO36JJHvf5k3Cw=",
   "Source": "PrimeiroProjeto",
   "BasePath": "_content/PrimeiroProjeto",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PrimeiroProjeto\\wwwroot",
       "Source": "PrimeiroProjeto",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\cadastroProduto.html",
+      "Identity": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\cadastroProduto.html",
       "SourceId": "PrimeiroProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "RelativePath": "cadastroProduto.html",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\cadastroProduto.html"
     },
     {
-      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\index.html",
       "SourceId": "PrimeiroProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\Produtos.css",
+      "Identity": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\Produtos.css",
       "SourceId": "PrimeiroProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "RelativePath": "Produtos.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Produtos.css"
     },
     {
-      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\scriptLogin.js",
+      "Identity": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\scriptLogin.js",
       "SourceId": "PrimeiroProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "RelativePath": "scriptLogin.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\scriptLogin.js"
     },
     {
-      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\scriptProduto.js",
+      "Identity": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\scriptProduto.js",
       "SourceId": "PrimeiroProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "RelativePath": "scriptProduto.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\scriptProduto.js"
     },
     {
-      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\style.css",
+      "Identity": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\style.css",
       "SourceId": "PrimeiroProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "RelativePath": "style.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\style.css"
     },
     {
-      "Identity": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\styleLogin.css",
+      "Identity": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\styleLogin.css",
       "SourceId": "PrimeiroProjeto",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\workspace\\Projeto-mercado-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\",
       "BasePath": "_content/PrimeiroProjeto",
       "RelativePath": "styleLogin.css",
       "AssetKind": "All",
