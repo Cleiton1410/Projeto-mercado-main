@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\Produtos.css",
+      "Id": "C:\\workspace\\mercado\\Projeto-mercado-main\\wwwroot\\Produtos.css",
       "PackagePath": "staticwebassets\\Produtos.css"
     },
     {
-      "Id": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\cadastroProduto.html",
+      "Id": "C:\\workspace\\mercado\\Projeto-mercado-main\\wwwroot\\cadastroProduto.html",
       "PackagePath": "staticwebassets\\cadastroProduto.html"
     },
     {
-      "Id": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\index.html",
+      "Id": "C:\\workspace\\mercado\\Projeto-mercado-main\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\scriptLogin.js",
+      "Id": "C:\\workspace\\mercado\\Projeto-mercado-main\\wwwroot\\scriptLogin.js",
       "PackagePath": "staticwebassets\\scriptLogin.js"
     },
     {
-      "Id": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\scriptProduto.js",
+      "Id": "C:\\workspace\\mercado\\Projeto-mercado-main\\wwwroot\\scriptProduto.js",
       "PackagePath": "staticwebassets\\scriptProduto.js"
     },
     {
-      "Id": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\style.css",
+      "Id": "C:\\workspace\\mercado\\Projeto-mercado-main\\wwwroot\\style.css",
       "PackagePath": "staticwebassets\\style.css"
     },
     {
-      "Id": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\wwwroot\\styleLogin.css",
+      "Id": "C:\\workspace\\mercado\\Projeto-mercado-main\\wwwroot\\styleLogin.css",
       "PackagePath": "staticwebassets\\styleLogin.css"
     },
     {

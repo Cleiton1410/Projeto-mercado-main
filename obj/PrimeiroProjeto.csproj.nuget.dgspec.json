@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\PrimeiroProjeto.csproj": {}
+    "C:\\workspace\\mercado\\Projeto-mercado-main\\PrimeiroProjeto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\PrimeiroProjeto.csproj": {
+    "C:\\workspace\\mercado\\Projeto-mercado-main\\PrimeiroProjeto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\PrimeiroProjeto.csproj",
+        "projectUniqueName": "C:\\workspace\\mercado\\Projeto-mercado-main\\PrimeiroProjeto.csproj",
         "projectName": "PrimeiroProjeto",
-        "projectPath": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\PrimeiroProjeto.csproj",
+        "projectPath": "C:\\workspace\\mercado\\Projeto-mercado-main\\PrimeiroProjeto.csproj",
         "packagesPath": "C:\\Users\\cleit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\obj\\",
+        "outputPath": "C:\\workspace\\mercado\\Projeto-mercado-main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cleit\\AppData\\Roaming\\NuGet\\NuGet.Config"

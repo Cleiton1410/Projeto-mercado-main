@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kh3Vs6m9m34=",
+  "dgSpecHash": "1DAf5BmzOwM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\cleit\\Projeto-mercado-main.worktrees\\CadatroProduto\\PrimeiroProjeto.csproj",
+  "projectFilePath": "C:\\workspace\\mercado\\Projeto-mercado-main\\PrimeiroProjeto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cleit\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\cleit\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",
